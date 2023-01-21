@@ -12,6 +12,7 @@ import com.amazon.qa.TestPages.LoginPage;
 public class LoginPageTest extends TestBase
 {
 
+	
 	//Global variables
 	LoginPage loginPage;
 	
