@@ -11,12 +11,6 @@ import com.amazon.qa.TestBase.TestBase;
 public class LoginPage extends TestBase
 {
 
-	/*public LoginPage() throws IOException 
-	{
-		super();
-
-	}*/
-	
 	//Object Repository or Page Factory
 	@FindBy(name = "email")
 	WebElement userNameTextBox;
@@ -38,7 +32,6 @@ public class LoginPage extends TestBase
 	{
 		super();
 		PageFactory.initElements(driver, this);
-		
 	}
 	
 	//Actions
@@ -52,20 +45,17 @@ public class LoginPage extends TestBase
        return amzLogo.isDisplayed();	
     }
 
-    public HomePage logIn(String uName, String psd) throws InterruptedException, IOException
+    public void logIn(String uName, String psd) throws InterruptedException, IOException
     {
     	userNameTextBox.sendKeys(uName);
     	continueButton.click();
     	Thread.sleep(1000);
     	passwordTextBox.sendKeys(psd);
     	signInButton.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(2000);
     	
-    	return new HomePage();
+    	//return new HomePage();
     }
-
-
-
 
 }
 

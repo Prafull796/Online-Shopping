@@ -6,9 +6,9 @@
       <class name="com.amazon.qa.TestCases.LoginPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="logInTest"/>
+          <include name="getLoginPageTitle"/>
+          <include name="getLoginDetails"/>
           <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
           <include name="amzLogoTest"/>
         </methods>
       </class> <!-- com.amazon.qa.TestCases.LoginPageTest -->

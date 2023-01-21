@@ -1,4 +1,4 @@
-package com.amazon.qa.ExtentReport;
+/*package com.amazon.qa.ExtentReport;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -39,7 +39,8 @@ public class ExtentReportManager
 	{
 	  if(reports == null)
 	  {
-		  htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/ExtentReport/Amz.html");
+		  //htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Amz.html");
+		  htmlreporter = new ExtentHtmlReporter("D:\\Selenium\\Selenium Projects\\Workspace\\OnlineShopping\\test-output\\ExtentReport\\Amz.html");
 		  reports = new ExtentReports();
 		  reports.attachReporter(htmlreporter);
 		  reports.setSystemInfo("Host Name", "Software Testing");
@@ -96,4 +97,4 @@ public class ExtentReportManager
 		
 	}
 		
-}
+}*/

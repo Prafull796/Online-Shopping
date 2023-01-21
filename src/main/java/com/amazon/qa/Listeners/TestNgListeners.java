@@ -3,7 +3,7 @@ package com.amazon.qa.Listeners;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class TestNgListeners implements ITestListener 
+public abstract class TestNgListeners implements ITestListener 
 {
    
 	public void onTestFailure(ITestResult result) {					
