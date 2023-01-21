@@ -17,6 +17,7 @@ public class LoginPageTest extends TestBase
 	
 	public LoginPageTest() throws IOException 
 	{
+
 		super();	
 	}
 	
